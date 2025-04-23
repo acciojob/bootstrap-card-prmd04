@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sync5 Cards</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<style>
+		.img-100{
+	  height: 200px;
+	  object-fit: cover;
+		}
+		
+	</style>
+  <div class="container my-5">
+    <div class="card card-deck w-100 bg-light mx-auto p-3">
+      <div class="card-body">
+        <h2 class="card-title mb-4">Welcome to Sync5</h2>
 
+        <div class="card mb-1">
+          <div class="card-header">
+            <h6 class="mb-0">New Feature</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Mobile and Tablet support</h5>
+            <p class="card-text">With this new update you will be able to sync your work across large number of platforms.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card text-bg-danger mb-1" style="max-width: 18rem;">
+          <div class="card-header">Alert</div>
+          <div class="card-body">
+            <h5 class="card-title">Node Dead</h5>
+            <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
+          </div>
+        </div>
+
+        <img 
+          class="card-img-top img-fluid img-100"
+          src="https://assets-us-01.kc-usercontent.com/496a7f02-b681-0069-311b-f98123d5bcf5/63b4b773-2410-41c5-9106-bebaae2efa5e/Eva%20Mallinson%20photographed%20by%20Ian%20Taylor%20for%20Water%20Babies%20960px%20x%20540px.jpg"
+          alt="image Not found"
+        />
+        <h5 class="card-title">President under Pressure</h5>
+        <p class="card-text">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
+        <h6 class="text-muted">Last updated 12 mins ago</h6>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
